@@ -35,6 +35,18 @@ npm config set sqlite3_binary_site https://npm.taobao.org/mirrors/sqlite3/
 npm config set python_mirror https://npm.taobao.org/mirrors/python/
 ```
 
+or
+
+可以通过 .npmrc 文件设置具体依赖包的国内镜像。该文件在项目 npm install 时会被加载读取，优先级高于 npm 全局设置。
+
+``` js
+registry=https://registry.npm.taobao.org/
+sass_binary_site=http://npm.taobao.org/mirrors/node-sass
+chromedriver_cdnurl=http://npm.taobao.org/mirrors/chromedriver
+electron_mirror=http://npm.taobao.org/mirrors/electron/
+puppeteer_download_host=http://npm.taobao.org/mirrors/chromium-browser-snapshots/
+```
+
 - 针对node-sass的情况：
 
 ```bash
