@@ -1,0 +1,12 @@
+# misc
+.idea/*
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+.svn
